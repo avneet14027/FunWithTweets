@@ -5,6 +5,7 @@ This repo consists of 3 files:
  - tweetStreamExtract.py //extracting tweets from twitter stream
  - words.txt //words for which tweets will be extracted.
  
+ Note: Instead of creating a separate json_parse.py, I have created a function in both the files to parse the json object.
  Using the two code files here I have demonstrated 2 different ways to achieve the task. The code has been developed and tested using Python 2.7.12 . The output is a hello.txt file which is a csv consisting of S.No, TweetID, TweetText.
  
  ### tweetExtract.py
