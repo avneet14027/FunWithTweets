@@ -3,7 +3,8 @@
 This repo consists of 3 files:
  - tweetExtract.py //extracting tweets using tweepy.Cursor()
  - tweetStreamExtract.py //extracting tweets from twitter stream
- - words.txt //words for which tweets will be extracted
+ - words.txt //words for which tweets will be extracted.
+ 
  Using the two code files here I have demonstrated 2 different ways to achieve the task. The code has been developed and tested using Python 2.7.12 . The output is a hello.txt file which is a csv consisting of S.No, TweetID, TweetText.
  
  ### tweetExtract.py
